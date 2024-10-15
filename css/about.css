@@ -1,0 +1,105 @@
+.about {
+  padding: 50px 0;
+}
+
+.about__title {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50px;
+  margin-bottom: 50px;
+}
+
+.about__wrapper {
+  font-size: 0px;
+}
+
+.about__place {
+  background-image: url(../img/about_img.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: inline-block;
+  width: 600px;
+  height: 596px;
+  vertical-align: top;
+  margin-right: 80px;
+  
+}
+.about__desc {
+  width: 500px;
+  display: inline-block;
+  vertical-align: top;
+}
+.about__first-paragraph {
+  text-align: left;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  margin-bottom: 20px;
+  max-width: 500px;
+}
+
+.about__second-paragraph {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  margin-bottom: 59px;
+  max-width: 500px;
+}
+
+.about__blockquote {
+  text-align: right;
+}
+
+.about__blockquote-text {
+  position: relative;
+  text-align: left;
+  max-width: 469px;
+  font-size: 44px;
+  font-weight: 400;
+  line-height: 50px;
+  margin-bottom: 40px;
+}
+
+.about__blockquote-text:before {
+  content: "\275D";
+  color: #6c0287;
+  width: 22px;
+  height: 50px;
+  position:absolute;
+  top: -11px;
+  left: -31px;
+}
+
+.about__blockquote-text:after {
+  content: "\275E";
+  color: #6c0287;
+}
+
+.about__author {
+  text-align: right;
+}
+
+.about__author-img {
+  height: 80px;
+  display: inline-block;
+  text-align: right;
+  margin-right: 29px;
+  
+}
+
+.about-pic {
+  display: inline-block;
+}
+
+.about__author-text {
+  text-align: left;
+  max-width: 270px;
+  display: inline-block;
+  vertical-align: top;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+}
