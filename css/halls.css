@@ -1,5 +1,6 @@
 .halls {
-  padding: 25px 0;
+  padding-top: 50px;
+  margin-bottom: 100px;
 }
 .halls__title {
   text-align: center;
@@ -12,7 +13,9 @@
 
 .halls__list {
   list-style: none;
-  font-size: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 
 .halls__item {
@@ -26,29 +29,22 @@
   background-repeat: no-repeat;
 }
 
-.halls__item:nth-child(even) {
-  margin-right: 0;
-}
+
 
 .vibes {
   background-image: url(../img/80s_vibes.jpg);
-  margin-right: 20px;
-  margin-bottom: 20px;
+
 }
 .wars {
   background-image: url(../img/star_wars.jpg);
-  margin-bottom: 20px;
 }
 
 .west {
   background-image: url(../img/wild_west.jpg);
-  margin-right: 20px;
-  margin-bottom: 0;
 }
 
 .neon {
   background-image: url(../img/neon_style.jpg);
-  margin-bottom: 0;
 }
 
 .halls__caption {

@@ -1,0 +1,101 @@
+.entertainments {
+  padding: 50px 0;
+}
+
+.entertainments__title {
+  white-space: pre-line;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50px;
+  margin-bottom: 41px;
+
+
+
+}
+
+.entertainments__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px 20px
+}
+
+.entertainments__item {
+  position: relative;
+  width: 380px;
+  height: 228px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+.vr {
+  background-image: url(../img/vr.jpg);
+}
+
+.audio {
+  background-image: url(../img/audio.jpg);
+}
+
+.karaoke {
+  background-image: url(../img/micro.jpg);
+}
+
+.board-games {
+  background-image: url(../img/game.jpg);
+}
+
+.movie-services {
+  background-image: url(../img/netflix.jpg);
+}
+
+.playstation {
+  background-image: url(../img/sony.jpg);
+}
+
+.entertainments__text {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+  color: #ffffff
+}
+
+.vr-text {
+  position: absolute;
+  left: 40px;
+  bottom: 34px
+
+}
+.audio-text {
+  white-space: pre-line;
+  max-width: 300px;
+  position: absolute;
+  left: 40px;
+  bottom: 6px;
+
+}
+.karaoke-text {
+  position: absolute;
+  left: 40px;
+  bottom: 20px;
+
+}
+.board-games-text {
+  position: absolute;
+  left: 40px;
+  bottom: 20px;
+}
+.movie-services-text {
+  position: absolute;
+  max-width: 300px;
+  left: 40px;
+  bottom: 6px;
+}
+.playstation-text {
+  position: absolute;
+  left: 40px;
+  bottom: 20px;
+
+}

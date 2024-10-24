@@ -1,26 +1,99 @@
 .intro {
-  padding: 25px 0;
+  padding: 25px 0 50px;
 }
 .intro__container {
-    height: 823px;
-    background-image: url(../img/intro.png);
-    background-position: right 61px;
-    background-repeat: no-repeat;
-  }
-  
+  position: relative;
+  height: 823px;
+  background-image: url(../img/intro.png);
+  background-position: right 61px;
+  background-repeat: no-repeat;
+}
+
   .intro__title {
-    text-align: left;
-    font-size: 150px;
-    font-weight: 900;
-    line-height: 100%;
-    letter-spacing: -0.1em;
+  text-align: left;
+  font-size: 150px;
+  font-weight: 900;
+  line-height: 100%;
+  letter-spacing: -0.1em;
   }
-    
-  .intro__subtitle {
-    text-align: left;
-    font-size: 28px;
-    font-weight: 400;
-    line-height: 50px;
-    padding-left: 100px;
-    margin: 0;
+.intro__subtitle {
+  text-align: left;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 50px;
+  padding-left: 100px;
+  margin-bottom: 30px;
   }
+
+.intro__info-box {
+  display: flex;
+  align-items: center;
+  margin-bottom: 150px;
+}
+
+.intro__info-halls {
+  height: 243px;
+  margin-right: 40px;
+}
+
+.intro__desc {
+  text-align: center;
+  max-width: 193px;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 34px;
+}
+
+.intro__halls-number {
+  display: block;
+  font-size: 100px;
+  font-weight: 900;
+  line-height: 141px; 
+  color: #cd06ff
+}
+
+.intro__info-equipment {
+  height: 208px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.intro__text {
+  max-width: 161px;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 34px;
+  text-align: center;
+}
+
+
+
+.intro__info-condition {
+  display: block;
+  font-size: 75px;
+  font-weight: 900;
+  line-height: 106px;
+  color: #cd06ff;
+  text-transform: lowercase;
+
+}
+
+.intro__btn {
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 30px;
+  border-radius: 10px;
+  background-color: #6c0287;
+  text-transform: uppercase;
+  padding: 25px 69px;
+  color: #ffffff
+
+}
+
+.intro__link {
+  display: block;
+  position: absolute;
+  right: 544px;
+  bottom: 90px;
+}
