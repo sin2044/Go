@@ -42,6 +42,17 @@
   background-repeat: no-repeat;
 }
 
+.faq__item:hover:after {
+  background-image: url(../img/hover-purple.svg);
+}
+
+.faq__item:focus:after {
+  background-image: url(../img/hover-purple.svg);
+}
+
+.faq__item:active:after {
+  background-image: url(../img/active_purple.svg);
+}
 .faq__item_background_purple {
   color:#fff;
   background-color: #440F51;
@@ -51,6 +62,18 @@
   content: "";
   position: absolute;
   background-image: url(../img/open.svg);
+}
+
+.faq__item_background_purple:hover:after {
+  background-image: url(../img/hover-whtie.svg);
+}
+
+.faq__item_background_purple:focus:after {
+  background-image: url(../img/hover-whtie.svg);
+}
+
+.faq__item_background_purple:active:after {
+  background-image: url(../img/active_open.svg);
 }
 
 

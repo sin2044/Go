@@ -76,7 +76,6 @@
   line-height: 106px;
   color: #cd06ff;
   text-transform: lowercase;
-
 }
 
 .intro__btn {
@@ -88,12 +87,61 @@
   text-transform: uppercase;
   padding: 25px 69px;
   color: #ffffff
+}
+
+
+.intro__btn:hover {
+  border-radius: 10px;
+  background-color: #840aa3;
+}
+
+.intro__btn:focus {
+  border-radius: 10px;
+  background-color: #840aa3;
+
+}
+
+.intro__btn:active {
+  border-radius: 10px;
+  background-color: #640aa3;
 
 }
 
 .intro__link {
+  width: 97px;
+  height: 97px;
   display: block;
   position: absolute;
   right: 544px;
   bottom: 90px;
+}
+
+.intro__link:hover>svg>circle {
+  fill: #ffffff;
+}
+
+.intro__link:hover>svg>circle {
+  stroke: #ffffff;
+}
+
+.intro__link:hover>svg>rect {
+  fill: #6c0287;
+}
+
+.intro__link:focus>svg {
+  outline: 1px solid #cd06ff;
+
+}
+
+.intro__link:active>svg {
+  outline: transparent;
+}
+
+.intro__link:active>svg>circle {
+  fill: #cd06ff;
+  stroke: #cd06ff;
+}
+
+.intro__link:active>svg>rect {
+  fill: #ffffff;
 }

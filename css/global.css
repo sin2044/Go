@@ -27,6 +27,16 @@ body {
   background-color: #1b1a1b;
 }
 
+input:focus,
+textarea:focus,
+select:focus,
+a:focus {
+  outline: none;
+}
+
+
+
+
 
 img,
 svg {

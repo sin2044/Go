@@ -33,3 +33,20 @@ header__link-logo {
   text-transform: uppercase;
   padding: 12px 32px;
 }
+
+.header__button:hover {
+  border: 3px solid #6c0287;
+  border-radius: 10px;
+  background-color: #6c0287;
+}
+
+.header__button:focus {
+  border-radius: 10px;
+  background-color: #6c0287;
+}
+
+.header__button:active {
+  border: 1px solid #000000;
+  border-radius: 10px;
+  background-color: #640aa3;
+}

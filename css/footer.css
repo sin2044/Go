@@ -72,7 +72,26 @@
   display: flex;
   gap: 26px;
   margin-bottom: 175px;
-} 
+}
+
+.footer__social-link {
+  display: block;
+}
+
+.footer__social-link:hover {
+  color: #eadeed;
+}
+
+.footer__social-link:focus {
+  color: #eadeed;
+  outline: 1px solid #cd06ff;
+}
+
+.footer__social-link:active {
+  color: #cd06ff;
+  outline-color: transparent;
+  
+}
 
 .footer__designer-info {
   display: flex;
