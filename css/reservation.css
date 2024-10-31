@@ -120,6 +120,8 @@
   margin-right: 12px;
   position: absolute;
   appearance:none;
+  outline:none;
+  border-width: 0;
   
 }
 
@@ -132,16 +134,18 @@
   background-color: #ffffff;
   margin-right: 12px;
   margin-bottom: 12px;
+  padding:3px
 }
 
 .form__consoles-span:before {
   content: "";
-  width: 27px;
-  height: 27px;
+  width: 13px;
+  height: 13px;
   position: absolute;
   border-radius: 50%;
-  top: 0;
-  left: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   background-color: #0000ff;
   opacity: 0;
 }
@@ -156,8 +160,47 @@
   outline: 1px solid #cd06ff;
   outline-offset: 3px;
   opacity: 0;
+}
+
+
+
+.form__radio-input:hover:not(:checked)+.form__consoles-span {
+  background-color: #adff2f;
+}
+
+.form__radio-input:focus:not(:checked)+.form__consoles-span:after {
+  opacity: 1;
 
 }
+
+.form__radio-input:not(:checked):active+.form__consoles-span {
+  background-color: #ff0000;
+}
+
+
+
+
+.form__radio-input:checked +.form__consoles-span:before {
+  opacity: 1;
+
+}
+
+
+
+
+
+/* .form__radio-input:focus:not(:checked)+.from__consoles-span {
+  width: 27px;
+  height: 27px;
+  outline: 1px solid #cd06ff;
+  outline-offset: 3px;
+} */
+
+/* .form__radio-input:focus-within:not(:checked) +.form__consoles-span {
+  border:  1px solid #cd06ff;
+  outline-offset: 3px;
+}  */
+
 
 .form__consoles-span_last {
   margin-bottom: 0;
@@ -165,21 +208,8 @@
 
 
 
-.form__radio-input:not(:checked):not(:disabled)+.form__consoles-span:hover:before {
-  background-color: #7fffd4;
-}
 
-.form__radio-input:not(:checked):not(:disabled):focus +.form__consoles-span:after  {
-  opacity: 1;
-}
 
-.form__radio-input:not(:disabled):active +.form__consoles-span:before {
-  background-color: #b3b7ff;
-}
-
-.form__radio-input:checked +.form__consoles-span:before {
-  opacity: 1;
-}
 
 
 
@@ -225,30 +255,29 @@
 }
 
 .form__board-games-span:before {
-  content: "\2714";
-  position:absolute;
-  width: 25px;
-  height: 25px;
-  top: 0;
-  left: 0;
-  color: #000000;
+  content: "";
+  width: 12px;
+  height: 12px;
+  position: absolute;
+  top:  50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background-color: #000000;
   opacity: 0;
 }
 
-.form__board-games-input:not(:checked):not(:disabled)+.form__board-games-span:hover:before {
-  background-color: #7fffd4;
+.form__board-games-input:hover:not(:checked)+.form__board-games-span {
+  background-color: #adff2f;
 }
 
-.form__board-games-input:focus:not(:checked):not(:disabled) +.form__board-games-span:before {
+.form__board-games-input:focus:not(:checked)+.form__board-games-span {
   outline: 1px solid #cd06ff;
   outline-offset: 3px;
-
 }
 
-.form__board-games-input:not(:disabled):not(:checked):active +.form__board-games-span:before {
-  background-color: #b3b7ff;
+.form__board-games-input:active:not(:checked)+.form__board-games-span {
+  background-color: red;
 }
-
 .form__board-games-input:checked+.form__board-games-span:before {
   opacity: 1;
 }
@@ -305,32 +334,30 @@
 }
 
 .form__addition-span:before {
-  content: "\2714";
-  position:absolute;
-  width: 25px;
-  height: 25px;
-  top:  0px;
-  left: 0px;
-  color: #000000;
+  content: "";
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background-color: #000000;
   opacity: 0;
 
 }
 
-
-.form__addition-input:not(:checked):not(:disabled) +.form__addition-span:hover:before {
-  background-color: #7fffd4;
+.form__addition-input:hover:not(:checked)+.form__addition-span {
+  background-color: #adff2f;
 }
 
-.form__addition-input:focus:not(:checked):not(:disabled) +.form__addition-span:before {
+.form__addition-input:focus:not(:checked)+.form__addition-span {
   outline: 1px solid #cd06ff;
   outline-offset: 3px;
-
 }
 
-.form__adвition-iinput:active:not(:checked):not(:disabled).form__addition-span::before {
-  background-color: #b3b7ff;
+.form__addition-input:active:not(:checked)+.form__addition-span {
+  background-color: red;
 }
-
 
 .form__addition-input:checked+.form__addition-span:before {
   opacity: 1;
