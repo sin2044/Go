@@ -148,7 +148,7 @@
   transform: translate(-50%, -50%);
   background-color: #0000ff;
   opacity: 0;
-}
+}    
 
 .form__consoles-span:after {
   content: "";
@@ -177,41 +177,14 @@
   background-color: #ff0000;
 }
 
-
-
-
 .form__radio-input:checked +.form__consoles-span:before {
   opacity: 1;
 
 }
 
-
-
-
-
-/* .form__radio-input:focus:not(:checked)+.from__consoles-span {
-  width: 27px;
-  height: 27px;
-  outline: 1px solid #cd06ff;
-  outline-offset: 3px;
-} */
-
-/* .form__radio-input:focus-within:not(:checked) +.form__consoles-span {
-  border:  1px solid #cd06ff;
-  outline-offset: 3px;
-}  */
-
-
 .form__consoles-span_last {
   margin-bottom: 0;
 }
-
-
-
-
-
-
-
 
 .form__board-games {
   display: flex;
@@ -478,15 +451,11 @@
   background-color: #b3d7ff;
 }
 
-
-
 .form__personal-data {
   display: flex;
   flex-direction: column;
   margin-right: 50px;
 }
-
-
 
 .form__name-label {
   font-size: 14px;
