@@ -16,7 +16,6 @@
 }
 
 .faq__item {
-  position: relative;
   background-color: #fff;
   color: #1C1A1A;
   font-weight: 700;
@@ -24,62 +23,81 @@
   line-height: 28px;
   padding: 30px 70px;
   margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.faq__item:nth-child(even) {
+  background-color: #440f51;
+  color: #ffffff;
 }
 
 .faq__item:last-child {
   margin-bottom: 0px;
 }
-
-.faq__item:after {
-  content: "";
-  position: absolute;
-  right: 70px;
-  top: 21px;
-  display: inline-block;
-  width: 46px;
-  height: 46px;
-  background-image: url(../img/open_btn.svg);
-  background-repeat: no-repeat;
+.faq__btn {
+  transition: outline .3s ease-in;
 }
 
-.faq__item:hover:after {
-  background-image: url(../img/hover-purple.svg);
+
+.faq__btn>svg {
+  fill: #ffffff;
 }
 
-.faq__item:focus:after {
-  background-image: url(../img/hover-purple.svg);
+.faq__btn:focus>svg {
+  outline: 1px solid #cd06ff;
+  transition: outline .3s ease-in;
+} 
+
+#vertical {
+  transition: .3s ease-in;
+
 }
 
-.faq__item:active:after {
-  background-image: url(../img/active_purple.svg);
-}
-.faq__item_background_purple {
-  color:#fff;
-  background-color: #440F51;
+.faq__btn>svg>circle {
+  stroke: #440f51;
+  transition: .3s ease-in;
 }
 
-.faq__item_background_purple:after {
-  content: "";
-  position: absolute;
-  background-image: url(../img/open.svg);
+.faq__btn>svg>path {
+  fill: #440f51;
+  
 }
 
-.faq__item_background_purple:hover:after {
-  background-image: url(../img/hover-whtie.svg);
-}
-
-.faq__item_background_purple:focus:after {
-  background-image: url(../img/hover-whtie.svg);
-}
-
-.faq__item_background_purple:active:after {
-  background-image: url(../img/active_open.svg);
+.faq__btn:hover>svg {
+  fill: #440f51;
 }
 
 
 
+.faq__btn:hover>svg>path {
+  fill: #ffffff;
 
+}
 
+.faq__btn:active>svg>#vertical {
+  opacity: 0;
+}
+
+.purple>svg>circle {
+  fill:transparent;
+  stroke: #ffffff;
+}
+
+.purple>svg>path {
+  fill: #ffffff;
+
+}
+
+.purple:hover>svg>circle {
+  fill: #ffffff;
+}
+
+.purple:hover>svg>path {
+  fill: #440f51;
+}
 
 
 

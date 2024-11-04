@@ -9,13 +9,13 @@
   background-repeat: no-repeat;
 }
 
-  .intro__title {
+.intro__title {
   text-align: left;
   font-size: 150px;
   font-weight: 900;
   line-height: 100%;
   letter-spacing: -0.1em;
-  }
+}
 .intro__subtitle {
   text-align: left;
   font-size: 28px;
@@ -32,7 +32,6 @@
 }
 
 .intro__info-halls {
-  height: 243px;
   margin-right: 40px;
 }
 
@@ -86,24 +85,29 @@
   background-color: #6c0287;
   text-transform: uppercase;
   padding: 25px 69px;
-  color: #ffffff
+  color: #ffffff;
+  transition: background-color .3s ease-in;
 }
 
 
 .intro__btn:hover {
   border-radius: 10px;
   background-color: #840aa3;
+  
+  
 }
 
 .intro__btn:focus {
   border-radius: 10px;
   background-color: #840aa3;
 
+
 }
 
 .intro__btn:active {
   border-radius: 10px;
   background-color: #640aa3;
+
 
 }
 
@@ -116,16 +120,34 @@
   bottom: 90px;
 }
 
+.intro__link>svg {
+  fill: transparent;
+  transition: fill 3s ease-in, outline .3s ease-in;
+}
+
+
+.intro__link>svg>circle {
+  transition: fill .3s ease-in;
+}
+
+.intro__link>svg>rect {
+  transition: fill .3s ease-in;
+}
+
+
 .intro__link:hover>svg>circle {
   fill: #ffffff;
 }
 
+
 .intro__link:hover>svg>circle {
   stroke: #ffffff;
+
 }
 
 .intro__link:hover>svg>rect {
   fill: #6c0287;
+
 }
 
 .intro__link:focus>svg {
@@ -135,11 +157,13 @@
 
 .intro__link:active>svg {
   outline: transparent;
+
 }
 
 .intro__link:active>svg>circle {
   fill: #cd06ff;
   stroke: #cd06ff;
+
 }
 
 .intro__link:active>svg>rect {

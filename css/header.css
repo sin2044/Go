@@ -32,6 +32,7 @@ header__link-logo {
   border: 3px solid #cd06ff;
   text-transform: uppercase;
   padding: 12px 32px;
+  transition: border .3s ease-in, background-color .3s ease-in;
 }
 
 .header__button:hover {

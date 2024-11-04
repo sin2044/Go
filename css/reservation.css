@@ -40,6 +40,7 @@
   text-transform: uppercase;
   cursor: pointer;
   margin-right: 60px;
+  transition: background-color .3s ease-in, border .3s ease-in;
 }
 
 .form__hall-label:hover {
@@ -47,12 +48,14 @@
   border-radius: 8px;
   background-color: #eadeed;
 
+
 }
 
 .form__hall-label:focus {
   border: 3px solid #640aa3;
   border-radius: 8px;
   background-color: #ffffff;
+
 }
 
 .form__hall-label:active {
@@ -60,6 +63,7 @@
   border-radius: 8px;
   background-color: #6c0287;
   color: #ffffff;
+
 
 }
 
@@ -134,7 +138,7 @@
   background-color: #ffffff;
   margin-right: 12px;
   margin-bottom: 12px;
-  padding:3px
+  transition: background-color .3s ease-in, border .3s ease-in;
 }
 
 .form__consoles-span:before {
@@ -166,19 +170,23 @@
 
 .form__radio-input:hover:not(:checked)+.form__consoles-span {
   background-color: #adff2f;
+
 }
 
 .form__radio-input:focus:not(:checked)+.form__consoles-span:after {
   opacity: 1;
 
+
 }
 
 .form__radio-input:not(:checked):active+.form__consoles-span {
   background-color: #ff0000;
+
 }
 
 .form__radio-input:checked +.form__consoles-span:before {
   opacity: 1;
+
 
 }
 
@@ -224,6 +232,7 @@
   background-color: #ffffff;
   margin-right: 12px;
   margin-bottom: 12px;
+  transition: background-color .3s ease-in, outline .3s ease-in;
 
 }
 
@@ -246,6 +255,7 @@
 .form__board-games-input:focus:not(:checked)+.form__board-games-span {
   outline: 1px solid #cd06ff;
   outline-offset: 3px;
+
 }
 
 .form__board-games-input:active:not(:checked)+.form__board-games-span {
@@ -299,6 +309,7 @@
   background-color: #ffffff;
   margin-right: 12px;
   margin-bottom: 12px;
+  transition: background-color .3s ease-in, outline .3s ease-in;
 
 }
 
@@ -321,16 +332,18 @@
 
 .form__addition-input:hover:not(:checked)+.form__addition-span {
   background-color: #adff2f;
+
 }
 
 .form__addition-input:focus:not(:checked)+.form__addition-span {
   outline: 1px solid #cd06ff;
   outline-offset: 3px;
+
 }
 
 .form__addition-input:active:not(:checked)+.form__addition-span {
   background-color: red;
-}
+  }
 
 .form__addition-input:checked+.form__addition-span:before {
   opacity: 1;
@@ -381,19 +394,23 @@
 .form__date-input {
   width: 134px;
   height: 52px;
+  transition: background-color .3s ease-in, border .3s ease-in;
 }
 
 .form__date-input:hover {
   background-color: #7fffd4;
+
 }
 
 .form__date-input:focus {
   border: 2px solid #cd06ff;
 
+
 }
 
 .form__date-input:active {
   background-color: #b3d7ff;
+
 }
 
 
@@ -409,19 +426,23 @@
   display: block;
   width: 134px;
   height: 52px;
+  transition: background-color .3s ease-in, border  .3s ease-in
 }
 
 .form__time-input:hover {
   background-color: #7fffd4;
+
 }
 
 .form__time-input:focus {
   border: 2px solid #cd06ff;
 
+
 }
 
 .form__time-input:active {
   background-color: #b3d7ff;
+
 }
 
 
@@ -437,6 +458,7 @@
   display: block;
   width: 300px;
   height: 52px;
+  transition: background-color .3s ease-in, border .3s ease-in;
 }
 
 .form__count-input:hover {
@@ -445,10 +467,12 @@
 
 .form__count-input:focus {
   border: 2px solid #cd06ff;
+
 }
 
 .form__count-input:active {
   background-color: #b3d7ff;
+
 }
 
 .form__personal-data {
@@ -469,6 +493,7 @@
   width: 280px;
   height: 52px;
   margin-bottom: 14px;
+  transition: background-color .3s ease-in, border .3s ease-in;
 }
 
 .form__name-input:hover {
@@ -502,18 +527,22 @@
   display: block;
   width: 280px;
   height: 52px;
+  transition: background-color .3s ease-in, border .3s ease-in; 
 }
 
 .form__surname-input:hover {
   background-color: #7fffd4;
+
 }
 
 .form__surname-input:focus {
   border: 2px solid #cd06ff;
+
 }
 
 .form__surname-input:active {
   background-color: #b3d7ff;
+
 }
 
 .form__contacts {
@@ -533,18 +562,22 @@
   width: 300px;
   height: 52px;
   margin-bottom: 14px;
+  transition: background-color .3s ease-in;
 }
 
 .form__tel-input:hover {
   background-color: #7fffd4;
+  transition: all .25s;
 }
 
 .form__tel-input:focus {
   border: 2px solid #cd06ff;
+  transition: all .25s;
 }
 
 .form__tel-input:active {
   background-color: #b3d7ff;
+  transition: all .25s;
 }
 
 
@@ -563,14 +596,17 @@
 
 .form__email-input:hover {
   background-color: #7fffd4;
+  transition: all .25s;
 }
 
 .form__email-input:focus {
   border: 2px solid #cd06ff;
+  transition: all .25s;
 }
 
 .form__email-input:active {
   background-color: #b3d7ff;
+  transition: all .25s;
 }
 
 .form__btn {
@@ -588,6 +624,7 @@
   border: 3px solid #6c0287;
   border-radius: 10px;
   background-color: #eadeed;
+  transition: all .25s;
 
 }
 
@@ -595,12 +632,14 @@
   border: 3px solid #6c0287;
   border-radius: 10px;
   background-color: #ffffff;
+  transition: all .25s;
 
 }
 
 .form__btn:active {
   border-radius: 10px;
   background-color: #eadeed;
+  transition: all .25s;
 
 }
 

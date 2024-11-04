@@ -76,6 +76,7 @@
 
 .footer__social-link {
   display: block;
+  transition: color .3s ease-in, outline .3s ease-in, outline-color .3s ease-in;
 }
 
 .footer__social-link:hover {
@@ -90,7 +91,6 @@
 .footer__social-link:active {
   color: #cd06ff;
   outline-color: transparent;
-  
 }
 
 .footer__designer-info {

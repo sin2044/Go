@@ -28,6 +28,12 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  transition: scale .3s ease-in;
+
+}
+
+.entertainments__item:hover {
+  scale: 1.1;
 
 }
 
