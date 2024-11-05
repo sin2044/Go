@@ -36,7 +36,9 @@ button {
 }
 
 
-
+button {
+  cursor: pointer;
+}
 
 
 img,
