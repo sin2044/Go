@@ -44,7 +44,7 @@
 }
 
 .form__hall-label:hover {
-  border: 3px solid #640aa3;
+  border: 3px solid var(--active-color);
   border-radius: 8px;
   background-color: #eadeed;
 
@@ -52,7 +52,7 @@
 }
 
 .form__hall-label:focus {
-  border: 3px solid #640aa3;
+  border: 3px solid var(--active-color);
   border-radius: 8px;
   background-color: #ffffff;
 

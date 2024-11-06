@@ -35,7 +35,7 @@ header__link-logo {
 }
 
 .header__link:active {
-  color:#640aa3;
+  color:var(--active-color);
 }
 
 .header__button {
@@ -65,5 +65,5 @@ header__link-logo {
 .header__button:active {
   border: 1px solid #000000;
   border-radius: 10px;
-  background-color: #640aa3;
+  background-color: var(--active-color);
 }

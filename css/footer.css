@@ -33,7 +33,7 @@
 }
 
 .footer__location-link:active {
-  color: #640aa3;
+  color: var(--active-color);
 }
 
 .footer__location-link:hover>.footer__location-icon {
@@ -45,7 +45,7 @@
 }
 
 .footer__location-link:active>.footer__location-icon {
-  color: #640aa3;
+  color: var(--active-color);
 }
 
 .footer__location-icon {
@@ -101,7 +101,7 @@
 }
 
 .footer__tel-link:active {
-  color: #640aa3;
+  color: var(--active-color);
 }
 
 .footer__tel-link:hover>.footer__tel-icon {
@@ -113,7 +113,7 @@
 }
 
 .footer__tel-link:active>.footer__tel-icon {
-  color: #640aa3;
+  color: var(--active-color);
 }
 
 
@@ -137,7 +137,7 @@
 }
 
 .footer__email-link:active {
-  color: #640aa3;
+  color: var(--active-color);
 }
 
 .footer__email-link:hover>.footer__email-icon {
@@ -149,7 +149,7 @@
 }
 
 .footer__email-link:active>.footer__email-icon {
-  color: #640aa3;
+  color: var(--active-color);
 }
 
 .footer__email-icon {
@@ -223,5 +223,5 @@
 }
 
 .footer__designer-email:active {
-  color: #640aa3;
+  color: var(--active-color);
 }
