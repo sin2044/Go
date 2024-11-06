@@ -336,7 +336,7 @@
 }
 
 .form__addition-input:focus:not(:checked)+.form__addition-span {
-  outline: 1px solid #cd06ff;
+  outline: 1px solid var(--elements-color);
   outline-offset: 3px;
 
 }
@@ -403,7 +403,7 @@
 }
 
 .form__date-input:focus {
-  border: 2px solid #cd06ff;
+  border: 2px solid var(--elements-color);
 
 
 }
@@ -435,7 +435,7 @@
 }
 
 .form__time-input:focus {
-  border: 2px solid #cd06ff;
+  border: 2px solid var(--elements-color);
 
 
 }
@@ -466,7 +466,7 @@
 }
 
 .form__count-input:focus {
-  border: 2px solid #cd06ff;
+  border: 2px solid var(--elements-color);
 
 }
 
@@ -501,7 +501,7 @@
 }
 
 .form__name-input:focus {
-  border: 2px solid #cd06ff;
+  border: 2px solid var(--elements-color);
 }
 
 .form__name-input:active {
@@ -536,7 +536,7 @@
 }
 
 .form__surname-input:focus {
-  border: 2px solid #cd06ff;
+  border: 2px solid var(--elements-color);
 
 }
 
@@ -571,13 +571,11 @@
 }
 
 .form__tel-input:focus {
-  border: 2px solid #cd06ff;
-  transition: all .25s;
+  border: 2px solid var(--elements-color);
 }
 
 .form__tel-input:active {
   background-color: #b3d7ff;
-  transition: all .25s;
 }
 
 
@@ -592,21 +590,22 @@
   display: block;
   width: 300px;
   height: 52px;
+  transition: background-color .3s ease-in;
 }
 
 .form__email-input:hover {
   background-color: #7fffd4;
-  transition: all .25s;
+
 }
 
 .form__email-input:focus {
-  border: 2px solid #cd06ff;
-  transition: all .25s;
+  border: 2px solid var(--elements-color);
+
 }
 
 .form__email-input:active {
   background-color: #b3d7ff;
-  transition: all .25s;
+
 }
 
 .form__btn {

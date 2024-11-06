@@ -20,6 +20,22 @@ header__link-logo {
 .header__link {
   color: #ffffff;
   text-transform: uppercase;
+  transition: color .3s ease-in, outline .3s ease-in  ;
+}
+
+.header__link:hover {
+  color: var(--elements-color)
+
+
+}
+
+.header__link:focus {
+  outline: 1px solid var(--elements-color);
+  outline-offset: 3px;
+}
+
+.header__link:active {
+  color:#640aa3;
 }
 
 .header__button {
@@ -29,7 +45,7 @@ header__link-logo {
   color: #ffffff;
   background-color: #000000;
   border-radius: 10px;
-  border: 3px solid #cd06ff;
+  border: 3px solid var(--elements-color);
   text-transform: uppercase;
   padding: 12px 32px;
   transition: border .3s ease-in, background-color .3s ease-in;

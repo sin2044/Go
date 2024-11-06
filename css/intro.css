@@ -48,7 +48,7 @@
   font-size: 100px;
   font-weight: 900;
   line-height: 141px; 
-  color: #cd06ff
+  color: var(--elements-color)
 }
 
 .intro__info-equipment {
@@ -73,7 +73,7 @@
   font-size: 75px;
   font-weight: 900;
   line-height: 106px;
-  color: #cd06ff;
+  color: var(--elements-color);
   text-transform: lowercase;
 }
 
@@ -151,7 +151,7 @@
 }
 
 .intro__link:focus>svg {
-  outline: 1px solid #cd06ff;
+  outline: 1px solid var(--elements-color);
 
 }
 
@@ -161,8 +161,8 @@
 }
 
 .intro__link:active>svg>circle {
-  fill: #cd06ff;
-  stroke: #cd06ff;
+  fill: var(--elements-color);
+  stroke: var(--elements-color);
 
 }
 

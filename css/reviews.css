@@ -27,10 +27,22 @@
 }
 
 .reviews__img-wrap {
+  position:relative;
   width: 280px;
   height: 280px;
   margin-right: 20px;
   margin-bottom: 11px;
+}
+
+.reviews__img-wrap:before {
+  content: "";
+  width: 280px;
+  height: 280px;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: var(--gradient);
 }
 
 .reviews__caption {

@@ -1,5 +1,6 @@
 .entertainments {
-  padding: 50px 0;
+  padding: 50px 0 120px;
+
 }
 
 .entertainments__title {
@@ -30,6 +31,15 @@
   background-repeat: no-repeat;
   transition: scale .3s ease-in;
 
+}
+
+.audio {
+  transform: translateY(70px);
+
+}
+
+.movie-services {
+  transform: translateY(70px);
 }
 
 .entertainments__item:hover {

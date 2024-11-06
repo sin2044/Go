@@ -17,7 +17,7 @@
 
 .faq__item {
   background-color: #fff;
-  color: #1C1A1A;
+  color: var(--background-color);
   font-weight: 700;
   font-size: 24px;
   line-height: 28px;
@@ -47,7 +47,7 @@
 }
 
 .faq__btn:focus>svg {
-  outline: 1px solid #cd06ff;
+  outline: 1px solid var(--elements-color);
   transition: outline .3s ease-in;
 } 
 
